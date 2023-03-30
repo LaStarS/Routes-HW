@@ -9,7 +9,7 @@ function Index(props) {
             <ul>
                 {array.map((array, index) => 
                     <li key={index}>
-                        <a href={`/array/${array._id}`}><strong>{array.name}</strong></a>
+                        <a href={`//${array._id}`}><strong>{array.name}</strong></a>
                     </li>
                 )}
             </ul>
@@ -18,4 +18,4 @@ function Index(props) {
     )
 }
 
-export default 
+export default Index
